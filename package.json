@@ -1,0 +1,43 @@
+{
+  "name": "react-test-ui",
+  "version": "1.0.0",
+  "description": "React UI Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankpandey2012/react-test-ui.git"
+  },
+  "keywords": ["react", "react-dom", "react-ui"],
+  "author": "Shashank Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shashankpandey2012/react-test-ui/issues"
+  },
+  "homepage": "https://github.com/shashankpandey2012/react-test-ui#readme",
+  "peerDependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "style-loader": "^1.0.1",
+    "styled-components": "^4.4.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
