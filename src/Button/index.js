@@ -14,7 +14,7 @@ const Button = styled.button`
   font-family:${FontFamily};
   border-radius: 0.25em;
   color: ${props =>  props.variant ? VARIANTS[props.variant].color : VARIANTS.standard.color};
-  border: 2px solid ${props => props.variant ? VARIANTS[props.variant].borderColor :VARIANTS.standard.color };
+  border: ${props => props.variant ? VARIANTS[props.variant].borderColor : VARIANTS.standard.borderColor };
   margin: 0 1em;
   padding: 0.25em 1em;
   transition: 0.5s all ease-out;

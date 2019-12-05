@@ -5,6 +5,8 @@ import { Button } from '../../src';
 const App = () => (
   <div>
     <Button>hello</Button>
+    <Button variant='outline'>hello</Button>
+    <Button variant='transparent'>hello button</Button>
   </div>
 );
 render(<App />, document.getElementById("root"));

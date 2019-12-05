@@ -13,7 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/shashankpandey2012/react-test-ui.git"
   },
-  "keywords": ["react", "react-dom", "react-ui"],
+  "keywords": [
+    "react",
+    "react-dom",
+    "react-ui"
+  ],
   "author": "Shashank Pandey",
   "license": "ISC",
   "bugs": {
@@ -35,9 +39,11 @@
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "style-loader": "^1.0.1",
-    "styled-components": "^4.4.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.4.1"
   }
 }
