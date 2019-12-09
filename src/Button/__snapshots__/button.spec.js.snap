@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Testing should render button correctly 1`] = `
+.c0 {
+  height: 36px;
+  cursor: pointer;
+  background: #09b466;
+  font-size: 1em;
+  font-family: Roboto,sans-serif;
+  border-radius: 0.25em;
+  color: #fff;
+  border: 2 px solid #09b466;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+  outline: none;
+}
+
+<styled.button>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  height: ",
+            "36px",
+            ";
+  cursor: pointer;
+  background: ",
+            [Function],
+            ";
+  font-size: ",
+            "1em",
+            ";
+  font-family:",
+            "Roboto, sans-serif",
+            ";
+  border-radius: 0.25em;
+  color: ",
+            [Function],
+            ";
+  border: ",
+            [Function],
+            ";
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  transition: 0.5s all ease-out;
+  outline: none;
+",
+          ],
+        },
+        "displayName": "styled.button",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "button",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <button
+      className="c0"
+    >
+      My button
+    </button>
+  </StyledComponent>
+</styled.button>
+`;
+
+exports[`Button Testing should renders outline button correctly 1`] = `
+.c0 {
+  height: 36px;
+  cursor: pointer;
+  background: #fff;
+  font-size: 1em;
+  font-family: Roboto,sans-serif;
+  border-radius: 0.25em;
+  color: #09b466;
+  border: 2px solid #09b466;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+  outline: none;
+}
+
+<styled.button
+  variant="outline"
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  height: ",
+            "36px",
+            ";
+  cursor: pointer;
+  background: ",
+            [Function],
+            ";
+  font-size: ",
+            "1em",
+            ";
+  font-family:",
+            "Roboto, sans-serif",
+            ";
+  border-radius: 0.25em;
+  color: ",
+            [Function],
+            ";
+  border: ",
+            [Function],
+            ";
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  transition: 0.5s all ease-out;
+  outline: none;
+",
+          ],
+        },
+        "displayName": "styled.button",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "button",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    variant="outline"
+  >
+    <button
+      className="c0"
+    >
+      My button
+    </button>
+  </StyledComponent>
+</styled.button>
+`;
+
+exports[`Button Testing should renders standard button correctly 1`] = `
+.c0 {
+  height: 36px;
+  cursor: pointer;
+  background: #09b466;
+  font-size: 1em;
+  font-family: Roboto,sans-serif;
+  border-radius: 0.25em;
+  color: #fff;
+  border: 2 px solid #09b466;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+  outline: none;
+}
+
+<styled.button
+  variant="standard"
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  height: ",
+            "36px",
+            ";
+  cursor: pointer;
+  background: ",
+            [Function],
+            ";
+  font-size: ",
+            "1em",
+            ";
+  font-family:",
+            "Roboto, sans-serif",
+            ";
+  border-radius: 0.25em;
+  color: ",
+            [Function],
+            ";
+  border: ",
+            [Function],
+            ";
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  transition: 0.5s all ease-out;
+  outline: none;
+",
+          ],
+        },
+        "displayName": "styled.button",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "button",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    variant="standard"
+  >
+    <button
+      className="c0"
+    >
+      My button
+    </button>
+  </StyledComponent>
+</styled.button>
+`;
+
+exports[`Button Testing should renders transparent button correctly 1`] = `
+.c0 {
+  height: 36px;
+  cursor: pointer;
+  background: transparent;
+  font-size: 1em;
+  font-family: Roboto,sans-serif;
+  border-radius: 0.25em;
+  color: #09b466;
+  border: none;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  -webkit-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+  outline: none;
+}
+
+<styled.button
+  variant="transparent"
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  height: ",
+            "36px",
+            ";
+  cursor: pointer;
+  background: ",
+            [Function],
+            ";
+  font-size: ",
+            "1em",
+            ";
+  font-family:",
+            "Roboto, sans-serif",
+            ";
+  border-radius: 0.25em;
+  color: ",
+            [Function],
+            ";
+  border: ",
+            [Function],
+            ";
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  transition: 0.5s all ease-out;
+  outline: none;
+",
+          ],
+        },
+        "displayName": "styled.button",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "button",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    variant="transparent"
+  >
+    <button
+      className="c0"
+    >
+      My button
+    </button>
+  </StyledComponent>
+</styled.button>
+`;
